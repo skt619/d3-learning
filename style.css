@@ -9,12 +9,12 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 80px);
+  grid-template-columns: repeat(4, 100px);
   grid-gap: 10px;
 }
 
 .grid-container button {
-  width: 80px;
+  width: 100px;
   height: 80px;
   font-size: 16px;
   cursor: pointer;
