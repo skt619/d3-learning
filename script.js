@@ -1,6 +1,6 @@
-// Optional: Add click functionality
 document.querySelectorAll('.grid-container button').forEach(button => {
-  button.addEventListener('click', () => {
-    alert(`Button ${button.textContent} clicked`);
-  });
+    button.addEventListener('click', () => {
+        const page = button.getAttribute('data-page');
+        window.location.href = `pages/${page}.html`;
+    });
 });
